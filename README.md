@@ -1,6 +1,7 @@
 
 In the project directory, you can run:
 
+From your terminal, type `git clone https://github.com/triprjt/social-app.git`
 ### `npm install`
 
 ### `npm start`
