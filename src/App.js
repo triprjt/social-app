@@ -40,18 +40,16 @@ function App() {
 
   return (
     <Router>
-      <TransitionGroup>
-        <Routes>
-          <Route
-            path="/"
-            element={<UserList users={users} onFollow={handleFollow} />}
-          />
-          <Route
-            path="/profile/:usernameParam"
-            element={<ProfilePage users={users} onFollow={handleFollow} />}
-          />
-        </Routes>
-      </TransitionGroup>
+      <Routes>
+        <Route
+          path="/"
+          element={<UserList users={users} onFollow={handleFollow} />}
+        />
+        <Route
+          path="/profile/:usernameParam"
+          element={<ProfilePage users={users} onFollow={handleFollow} />}
+        />
+      </Routes>
     </Router>
   );
 }
