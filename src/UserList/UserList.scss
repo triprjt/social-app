@@ -1,0 +1,24 @@
+.user-card {
+  max-width: 400px; // adjust this value as needed
+  margin: 0 auto; // centers the card if its width is less than its container's width
+  margin-bottom: 20px;
+  display: block; // ensures the card spans the full width available to it
+}
+
+.user-card button {
+  margin-left: 5px;
+}
+
+.user-list-item {
+  margin-bottom: 10px;
+}
+
+.image-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.user-image {
+  width: 100%;
+  height: auto;
+}

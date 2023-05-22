@@ -1,0 +1,96 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: #000000 !important;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 100px;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+}
+
+.title {
+  font-size: 3em;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.nav {
+  margin-top: 40px;
+}
+
+.nav-item {
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: #555555;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.content {
+  margin-top: 40px;
+}
+
+.card {
+  width: 100%;
+  margin-bottom: 20px;
+  background: linear-gradient(to left, #e0eafc, #cfdef3);
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1em;
+}
+
+// .btn {
+//   background-color: #000000;
+//   color: #ffffff;
+//   font-size: 1em;
+//   font-weight: bold;
+//   border-radius: 5px;
+//   // padding: 10px 20px;
+//   // margin-top: 20px;
+// }
+
+// .btn-primary {
+//   background-color: #61dafb;
+//   color: #282c34;
+// }
+
+.btn-primary:hover {
+  background-color: #52c8ea;
+  border-color: #52c8ea;
+}
+
+.profile-container {
+  margin-top: 2rem;
+}
+
+.post {
+  border: 1px solid #e7e7e2;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #1f1f20;
+  background: linear-gradient(to right, #485563, #29323c);
+}
+
+// Animation classes

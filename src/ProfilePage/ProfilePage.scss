@@ -1,0 +1,50 @@
+.profile-container {
+  margin-top: 2rem;
+  color: #ffffff;
+}
+
+.post {
+  border: 0.5px solid #ffffff;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  margin-right: auto;
+  margin-right: auto;
+  font-family: sans-serif;
+}
+
+.post + .post {
+  margin-top: 1rem;
+}
+#bio {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.btn-primary {
+  max-width: 200px;
+  //   margin-top: 15rem;
+}
+hr {
+  border-top: 2px solid #7b7b7b; // or any color of your choice
+}
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.username-connections {
+  display: flex;
+  align-items: center;
+  gap: 10px; // space between username and connections
+  white-space: nowrap; // Text will not wrap
+  margin-left: 2rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 20%;
+}
+.username-connections p {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: small;
+  color: gray;
+}
